@@ -1,0 +1,94 @@
+.main{
+    width: 100%;
+    float: left;
+   .header_name{
+    width: 100%;
+    float: left;
+    background: white;
+    text-align: center;
+    box-shadow: 2px -4px 2px 5px #b7b7b7;
+        h4{
+            font-size: 18px;
+            font-weight: normal;
+        }
+    }
+    .airtel_Details{
+        width: calc(100% - 30px);
+        float: left;
+        margin: 15px;
+        background: white;
+        .airtel-home{
+            width: calc(100% - 50px);
+            float: left;
+            margin: 5px;
+            background: #e4e4e4;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .airte_data{
+                width: 300px;
+                background: #4747cc;
+                padding: 20px;
+                border-radius: 5px;
+                .airte_img{
+                    width: 50px;
+                    float: left;
+                    height: 50px;
+                    background: white;
+                    border-radius: 30px;
+
+                }
+                .airte_home{
+                    width: auto;
+                    float: left;
+                    margin-left: 10px;
+                    h5{
+                        margin: 0px;
+                        color: white;
+                        font-size: 18pxli;
+                        font-size: 18px;
+                        font-weight: normal;
+                        line-height: 30px;
+                    }
+                    label{
+                        color: #c3c3c3;
+                    }
+                }
+           } 
+                .bill_data{
+                    width: 100%;
+                    float: left;
+                    margin-top: 15px;
+                    .mnthly_data{
+                        width: 50%;
+                        float: left;
+                        p{
+                            margin: 0px;
+                            line-height: 28px;
+                            color: white;
+                        }
+                        h5{
+                            margin: 0px;
+                            color: white;
+                        }
+                    }
+                    .lastbill_data{
+                        width: 50%;
+                        float: left;
+                        p{
+                            margin: 0px;
+                            line-height: 28px;
+                            color: white;
+                        }
+                        h5{
+                            margin: 0px;
+                            color: white;
+                        }
+                    }
+                }
+            
+        }
+    }
+   
+}
